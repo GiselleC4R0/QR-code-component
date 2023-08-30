@@ -22,8 +22,8 @@ body {
   background-color: var(--White);
   padding: 1.2rem;
   border-radius: 1rem;
-  width: 70%;
-  margin: 10%;
+  width: 20%;
+  margin-top: 10.5rem;
 }
 .header {
   text-align: center;
@@ -55,11 +55,17 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (max-width: 375px) {
+  .container {
+    width: 70%;
+    margin: 10%;
+  }
+}
 
 @media (min-width: 1440px) {
   .container {
-    width: 20%;
-    margin-top: 10.5rem;
+    /* width: 20%;
+    margin-top: 10.5rem; */
   }
   .h1 {
     font-size: 1.4rem;
